@@ -18,6 +18,18 @@
             padding: 20px;
             text-align: center;
         }
+import shutil
+
+# Path to the uploaded file
+uploaded_file_path = '/mnt/data/DALL·E 2024-09-22 03.07.12 - Design a sleek and modern logo for a clothing brand named \'Bergains\'. The logo should evoke a sense of luxury and sophistication while being simple an.webp'
+
+# Path to save the file in a more accessible location with a simple name
+new_file_path = '/mnt/data/bergains-logo.png'
+
+# Copying the file to the new location
+shutil.copy(uploaded_file_path, new_file_path)
+
+new_file_path
 
         header h1 {
             color: #fff;
