@@ -1,222 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bergains - Coming Soon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
 
-        header {
-            background-color: #333;
-            padding: 20px;
-            text-align: center;
-        }
+    <title>Bergains - Product Listing Page</title>
 
-# Copying the file to the new location
-shutil.copy(uploaded_file_path, new_file_path)
+    <!-- Additional CSS Files -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
 
-new_file_path
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
-        header h1 {
-            color: #fff;
-        }
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css" />
 
-        nav {
-            margin: 0 auto;
-            padding: 10px 0;
-            background-color: #444;
-        }
+    <link rel="stylesheet" href="assets/css/owl-carousel.css" />
 
-        nav a {
-            color: white;
-            padding: 10px;
-            text-decoration: none;
-            margin: 0 15px;
-        }
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <!--
 
-        .hero-section {
-            background-image: url('https://mnt/data/bergains-logo.png');
-            background-size: cover;
-            height: 70vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+TemplateMo 571 hexashop
 
-        .hero-section h2 {
-            color: #fff;
-            font-size: 3em;
-            text-shadow: 2px 2px #000;
-        }
+https://templatemo.com/tm-571-hexashop
 
-        .launching-soon {
-            padding: 50px;
-            text-align: center;
-            background-color: #fff;
-        }
+-->
+  </head>
 
-        .launching-soon h2 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
 
-        .clothing-grid {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .clothing-item {
-            background-color: #fff;
-            width: 30%;
-            padding: 15px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .clothing-item img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .clothing-item h3 {
-            margin: 15px 0;
-            font-size: 1.5em;
-        }
-
-        .clothing-item p {
-            color: #777;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Header -->
-    <header>
-        <h1>Bergains</h1>
-    </header>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <h2>Explore the New Fashion Trends</h2>
-    </section>
-
-    <!-- Launching Soon Section -->
-    <section class="launching-soon">
-        <h2>Launching Soon</h2>
-        <p>Check out our upcoming exclusive clothing collection.</p>
-
-        <div class="clothing-grid">
-            <!-- Product 1 -->
-            <div class="clothing-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Clothing Item 1">
-                <h3>Stylish Jacket</h3>
-                <p>Launching on: 10th October 2024</p>
-            </div>
-
-            <!-- Product 2 -->
-            <div class="clothing-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Clothing Item 2">
-                <h3>Casual Shirt</h3>
-                <p>Launching on: 15th October 2024</p>
-            </div>
-
-            <!-- Product 3 -->
-            <div class="clothing-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Clothing Item 3">
-                <h3>Denim Jeans</h3>
-                <p>Launching on: 20th October 2024</p>
-            </div>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/images/logo.jpeg"
+                  class="img-fluid"
+                  alt="Logo"
+                  style="width: 100px; height: auto"
+                />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section"><a href="index.html">Home</a></li>
+                <li class="scroll-to-section">
+                  <!-- <a href="about.html">About Us</a> -->
+                  <a href="#">About Us</a>
+                </li>
+                <li class="scroll-to-section">
+                  <!-- <a href="contact.html">Contact Us</a> -->
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
         </div>
-    </section>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-    <!-- Footer -->
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="inner-content">
+              <h2>Check Our Products</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Products Area Starts ***** -->
+    <section class="section" id="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading">
+              <h2>Our Latest Products</h2>
+              <span>Check out all of our products.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains1.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains1</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains2.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains2</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains3.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains3</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains4.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains4</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains5.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains5</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains6.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains6</h4>
+                <span>Rs 1120.00</span>
+
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains7.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains7</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains8.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains8</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains9.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains9</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains10.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains10</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains10.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains10</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="thumb">
+                <div class="hover-content">
+                  <ul>
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-eye"></i
+                      ></a>
+                    </li>
+                  
+                    <li>
+                      <a href="singles-product.html"
+                        ><i class="fa fa-shopping-cart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/bergains10.jpeg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>bergains10</h4>
+                <span>Rs 1120.00</span>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+            
+              
+            </div>
+          </div>
+          
+          <!-- <div class="col-lg-12">
+            <div class="pagination">
+              <ul>
+                <li>
+                  <a href="#">1</a>
+                </li>
+                <li class="active">
+                  <a href="#">2</a>
+                </li>
+                <li>
+                  <a href="#">3</a>
+                </li>
+                <li>
+                  <a href="#">4</a>
+                </li>
+                <li>
+                  <a href="#">></a>
+                </li>
+              </ul>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- ***** Products Area Ends ***** -->
+
+    <!-- ***** Footer Start ***** -->
     <footer>
-        <p>&copy; 2024 Bergains. All Rights Reserved.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="first-item">
+              <!-- <div class="logo">
+                <img
+                src="assets/images/logo.jpeg"
+                class="img-fluid"
+                alt="Logo"
+                style="width: 100px; height: auto"
+              />
+              </div> -->
+              
+            </div>
+          </div>
+        
+          <div class="col-lg-12">
+            <div class="under-footer">
+             
+            
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/bergainsclothing/"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
-</body>
-</html>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Description">
-<section class="hero">
-    <div class="hero-content">
-        <h1>Discover Fashion with Bergains</h1>
-        <p>Exclusive collection launching soon</p>
-        <a href="#shop" class="cta-button">Shop Now</a>
-    </div>
-</section>
-<section class="products" id="shop">
-    <h2>Our Latest Collection</h2>
-    <div class="product-grid">
-        <div class="product-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Product 1">
-            <h3>Stylish Jacket</h3>
-            <p>$50</p>
-            <a href="#" class="buy-now">Buy Now</a>
-        </div>
-        <div class="product-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Product 2">
-            <h3>Denim Jeans</h3>
-            <p>$40</p>
-            <a href="#" class="buy-now">Buy Now</a>
-        </div>
-        <!-- More product cards -->
-    </div>
-</section>
-<section class="newsletter">
-    <div class="newsletter-content">
-        <h2>Join Our Mailing List</h2>
-        <p>Get the latest updates on new collections and special offers</p>
-        <form>
-            <input type="email" placeholder="Enter your email">
-            <button type="submit">Subscribe</button>
-        </form>
-    </div>
-</section>
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/isotope.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+      $(function () {
+        var selectedClass = "";
+        $("p").click(function () {
+          selectedClass = $(this).attr("data-rel");
+          $("#portfolio").fadeTo(50, 0.1);
+          $("#portfolio div")
+            .not("." + selectedClass)
+            .fadeOut();
+          setTimeout(function () {
+            $("." + selectedClass).fadeIn();
+            $("#portfolio").fadeTo(50, 1);
+          }, 500);
         });
-    });
-</script>
-<section class="testimonials">
-    <h2>What Our Customers Say</h2>
-    <div class="testimonial-item">
-        <p>"The best quality clothing I've ever bought! Highly recommend Bergains."</p>
-        <h4>- Sarah K.</h4>
-    </div>
-    <div class="testimonial-item">
-        <p>"Amazing styles, fast delivery, and excellent customer service."</p>
-        <h4>- John D.</h4>
-    </div>
-</section>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcrfx0_FL8XRHbO0H83J-qSg3vGowNBvnbg&s" alt="Product 1">
-
-
+      });
+    </script>
+  </body>
+</html>
