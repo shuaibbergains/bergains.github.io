@@ -117,7 +117,7 @@ https://templatemo.com/tm-571-hexashop
                     </div>
                   </div>
                   
-                  <script type="text/javascript">
+                 <script type="text/javascript">
                     document.getElementById("sendEmailLink").addEventListener("click", function() {
                       var name = document.getElementById("name").value;
                       var email = document.getElementById("email").value;
@@ -127,7 +127,7 @@ https://templatemo.com/tm-571-hexashop
                       var body = "You have received a new message from " + name + " (" + email + ").\n\nMessage:\n" + message;
                   
                       // Create the mailto link
-                      var mailtoLink = 'mailto:mohammadshaibfonder@bergains.com'
+                      var mailtoLink = 'mailto:mohammadshauibfonder@bergains.com'
                                        + '?subject=' + encodeURIComponent(subject)
                                        + '&body=' + encodeURIComponent(body);
                   
@@ -135,26 +135,6 @@ https://templatemo.com/tm-571-hexashop
                       window.location.href = mailtoLink;
                     });
                   </script>
-                  
-                  <script type="text/javascript">
-                    function sendEmail() {
-                      var templateParams = {
-                        from_name: document.getElementById("name").value,
-                        from_email: document.getElementById("email").value,
-                        message: document.getElementById("message").value,
-                      };
-                  
-                      emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
-                        .then(function(response) {
-                          console.log('SUCCESS!', response.status, response.text);
-                          alert("Message sent successfully!");
-                        }, function(error) {
-                          console.log('FAILED...', error);
-                          alert("Failed to send message. Please try again.");
-                        });
-                    }
-                  </script>
-                  
             </div>
         </div>
     </div>
